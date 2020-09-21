@@ -8,5 +8,6 @@ public class Test_game{
 public final void testGame() {
         Game game = new Game();
         Assert.assertEquals(1, game(1));
+        Assert.assertEquals(2, game(2));
         }
  }
